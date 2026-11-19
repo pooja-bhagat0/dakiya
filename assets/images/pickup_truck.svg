@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90">
+  <defs>
+    <linearGradient id="bgGradPickup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="truckBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="90" rx="12" fill="url(#bgGradPickup)"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="60" cy="76" rx="52" ry="4" fill="#94A3B8" opacity="0.35"/>
+
+  <!-- Back Wheels (Heavy Duty) -->
+  <circle cx="32" cy="64" r="15" fill="#0F172A"/>
+  <circle cx="32" cy="64" r="9" fill="#94A3B8"/>
+  <circle cx="32" cy="64" r="4" fill="#334155"/>
+
+  <!-- Front Wheel (Heavy Duty) -->
+  <circle cx="94" cy="64" r="15" fill="#0F172A"/>
+  <circle cx="94" cy="64" r="9" fill="#94A3B8"/>
+  <circle cx="94" cy="64" r="4" fill="#334155"/>
+
+  <!-- Heavy Chassis -->
+  <rect x="14" y="58" width="94" height="6" rx="1" fill="#0F172A"/>
+
+  <!-- Open Cargo Bed / 8ft Deck -->
+  <rect x="14" y="40" width="56" height="18" rx="1" fill="url(#truckBody)"/>
+  <!-- Deck Railings -->
+  <line x1="14" y1="36" x2="70" y2="36" stroke="#B91C1C" stroke-width="2"/>
+  <line x1="14" y1="32" x2="70" y2="32" stroke="#B91C1C" stroke-width="2"/>
+  <line x1="26" y1="32" x2="26" y2="40" stroke="#B91C1C" stroke-width="2"/>
+  <line x1="42" y1="32" x2="42" y2="40" stroke="#B91C1C" stroke-width="2"/>
+  <line x1="58" y1="32" x2="58" y2="40" stroke="#B91C1C" stroke-width="2"/>
+
+  <!-- Cargo Load / Pallets Covered with Tarp -->
+  <path d="M18 40 L 22 26 Q 44 24 64 26 L 68 40 Z" fill="#0284C7"/>
+  <!-- Tie-down Straps -->
+  <line x1="30" y1="26" x2="30" y2="40" stroke="#FACC15" stroke-width="1.5"/>
+  <line x1="50" y1="26" x2="50" y2="40" stroke="#FACC15" stroke-width="1.5"/>
+
+  <!-- Cabin -->
+  <path d="M70 28 L 88 32 Q 98 34 102 42 L 104 58 L 70 58 Z" fill="url(#truckBody)"/>
+
+  <!-- Cabin Windows -->
+  <path d="M74 32 L 86 35 Q 92 38 94 44 L 74 44 Z" fill="#BAE6FD" opacity="0.85"/>
+  
+  <!-- Bullbar / Bumper & Grill -->
+  <rect x="100" y="52" width="6" height="6" rx="1" fill="#FEF08A"/>
+  <rect x="98" y="58" width="12" height="6" rx="1" fill="#1E293B"/>
+  <line x1="102" y1="50" x2="102" y2="60" stroke="#475569" stroke-width="2"/>
+</svg>

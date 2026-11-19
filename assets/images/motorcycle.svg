@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90">
+  <defs>
+    <linearGradient id="bgGradMoto" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFEDD5"/>
+    </linearGradient>
+    <linearGradient id="bodyGradMoto" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#FF6B00"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="90" rx="12" fill="url(#bgGradMoto)"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="60" cy="74" rx="44" ry="4" fill="#94A3B8" opacity="0.35"/>
+
+  <!-- Back Wheel -->
+  <circle cx="34" cy="58" r="16" fill="#1E293B"/>
+  <circle cx="34" cy="58" r="10" fill="#E2E8F0"/>
+  <circle cx="34" cy="58" r="4" fill="#64748B"/>
+
+  <!-- Front Wheel -->
+  <circle cx="86" cy="58" r="16" fill="#1E293B"/>
+  <circle cx="86" cy="58" r="10" fill="#E2E8F0"/>
+  <circle cx="86" cy="58" r="4" fill="#64748B"/>
+
+  <!-- Exhaust Pipe -->
+  <path d="M42 62 L 24 64" stroke="#64748B" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Engine Block -->
+  <rect x="46" y="52" width="16" height="12" rx="2" fill="#334155"/>
+
+  <!-- Bike Body & Fuel Tank -->
+  <path d="M40 44 Q 56 36 68 40 L 76 46 L 70 54 L 46 54 Z" fill="url(#bodyGradMoto)"/>
+  
+  <!-- Seat -->
+  <path d="M36 42 Q 46 40 56 42 L 54 46 L 36 45 Z" fill="#0F172A"/>
+
+  <!-- Front Fork & Handlebars -->
+  <line x1="86" y1="58" x2="74" y2="34" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="74" cy="33" r="2.5" fill="#0F172A"/>
+  <path d="M70 32 L 75 33 L 78 30" fill="none" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Headlight -->
+  <path d="M78 38 L 84 41 L 78 44 Z" fill="#FACC15"/>
+
+  <!-- Delivery Box on Tail -->
+  <rect x="22" y="32" width="16" height="14" rx="2" fill="#FF6B00"/>
+  <rect x="24" y="34" width="12" height="10" rx="1" fill="#EA580C"/>
+  <path d="M27 39 L 33 39" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

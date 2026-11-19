@@ -1,0 +1,14 @@
+{
+  "name": "daakexpress-fcm-service",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Messaging Push Notification Dispatcher for DaakExpress / Dakiya",
+  "main": "fcm_dispatch_service.js",
+  "type": "module",
+  "scripts": {
+    "start": "node fcm_dispatch_service.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.6.0"
+  }
+}
